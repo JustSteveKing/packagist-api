@@ -7,13 +7,13 @@
 ![Check & fix styling](https://github.com/JustSteveKing/packagist-api/workflows/Code%20style/badge.svg)
 [![Total Downloads][badge-downloads]][downloads]
 
-[badge-release]: https://img.shields.io/packagist/v/juststeveking/packagist-api.svg?style=flat-square&label=release
-[badge-php]: https://img.shields.io/packagist/php-v/juststeveking/packagist-api.svg?style=flat-square
-[badge-downloads]: https://img.shields.io/packagist/dt/juststeveking/packagist-apik.svg?style=flat-square&colorB=mediumvioletred
+[badge-release]: https://img.shields.io/packagist/v/juststeveking/packagist-sdk.svg?style=flat-square&label=release
+[badge-php]: https://img.shields.io/packagist/php-v/juststeveking/packagist-sdk.svg?style=flat-square
+[badge-downloads]: https://img.shields.io/packagist/dt/juststeveking/packagist-sdk.svg?style=flat-square&colorB=mediumvioletred
 
-[packagist]: https://packagist.org/packages/juststeveking/packagist-api
+[packagist]: https://packagist.org/packages/juststeveking/packagist-sdk
 [php]: https://php.net
-[downloads]: https://packagist.org/packages/juststeveking/packagist-api
+[downloads]: https://packagist.org/packages/juststeveking/packagist-sdk
 <!-- BADGES_END -->
 
 A dead simple API package for the Packagist API.
