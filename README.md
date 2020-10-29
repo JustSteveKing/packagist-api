@@ -1,4 +1,4 @@
-# Packagist API
+# Packagist SDK
 
 <!-- BADGES_START -->
 [![Latest Version][badge-release]][packagist]
