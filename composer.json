@@ -1,0 +1,38 @@
+{
+  "name": "juststeveking/packagist-sdk",
+  "description": "A simple SDK for packagist",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "role": "developer",
+      "name": "Steve McDougall",
+      "email": "juststevemcd@gmail.com",
+      "homepage": "https://www.juststeveking.uk/"
+    }
+  ],
+  "require": {
+    "juststeveking/php-sdk": "^1.0",
+    "nyholm/psr7": "^1.3",
+    "php-di/php-di": "9999999-dev",
+    "symfony/http-client": "9999999-dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.5.x-dev",
+    "symfony/var-dumper": "9999999-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "JustSteveKing\\Packagist\\SDK\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JustSteveKing\\Packagist\\SDK\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "config": {
+    "sort-packages": true
+  }
+}
