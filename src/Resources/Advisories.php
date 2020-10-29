@@ -18,8 +18,7 @@ class Advisories extends AbstractResource
      */
     public function package(string $query, string $package = null):? object
     {
-        if (! is_null($package))
-        {
+        if (! is_null($package)) {
             $query = "{$query}/{$package}";
         }
 

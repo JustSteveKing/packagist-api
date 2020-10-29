@@ -3,16 +3,16 @@
 namespace JustSteveKing\Packagist\SDK;
 
 use DI\Container;
+use JustSteveKing\HttpAuth\Strategies\NullStrategy;
+use JustSteveKing\HttpSlim\HttpClient;
 use JustSteveKing\Packagist\SDK\Resources\Advisories;
+use JustSteveKing\Packagist\SDK\Resources\Package;
 use JustSteveKing\Packagist\SDK\Resources\Search;
 use JustSteveKing\Packagist\SDK\Resources\Statistic;
 use JustSteveKing\PhpSdk\Client;
-use JustSteveKing\UriBuilder\Uri;
-use JustSteveKing\HttpSlim\HttpClient;
 use JustSteveKing\PhpSdk\ClientBuilder;
+use JustSteveKing\UriBuilder\Uri;
 use Symfony\Component\HttpClient\Psr18Client;
-use JustSteveKing\Packagist\SDK\Resources\Package;
-use JustSteveKing\HttpAuth\Strategies\NullStrategy;
 
 class Packagist extends Client
 {

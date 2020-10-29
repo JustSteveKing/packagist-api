@@ -40,8 +40,7 @@ class Package extends AbstractResource
      */
     public function meta(string $query, string $package = null):? object
     {
-        if (! is_null($package))
-        {
+        if (! is_null($package)) {
             $query = "{$query}/{$package}";
         }
 
