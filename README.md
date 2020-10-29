@@ -42,3 +42,46 @@ $results = $packagist->search->where('q', 'JustSteveKing')
                 ->where('type', 'library')
                 ->fetch();
 ```
+
+
+## Get packages by vendor
+
+```php
+use JustSteveKing\Packagist\SDK\Packagist;
+
+$packagist = Packagist::connect();
+
+$results = $packagist->packages->vendor('JustSteveKing');
+```
+
+
+### Get meta information about a package
+
+```php
+use JustSteveKing\Packagist\SDK\Packagist;
+
+$packagist = Packagist::connect();
+
+$result = $packagist->packages->meta('juststeveking', 'php-sdk');
+```
+
+
+### Get Security Advisories about a package
+
+```php
+use JustSteveKing\Packagist\SDK\Packagist;
+
+$packagist = Packagist::connect();
+
+$advisories = $packagist->advisories->package('slim', 'slim');
+```
+
+### Fetch Packagist statistics
+
+```php
+use JustSteveKing\Packagist\SDK\Packagist;
+
+$packagist = Packagist::connect();
+
+$stats = $packagist->statistics->fetch();
+```
