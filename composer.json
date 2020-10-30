@@ -12,8 +12,8 @@
     }
   ],
   "require": {
-    "php": "^7.4",
-    "juststeveking/php-sdk": "^1.0",
+    "php": "^7.4|^8.0",
+    "juststeveking/php-sdk": "^1.1.0",
     "nyholm/psr7": "^1.3",
     "php-di/php-di": "9999999-dev",
     "symfony/http-client": "9999999-dev"
